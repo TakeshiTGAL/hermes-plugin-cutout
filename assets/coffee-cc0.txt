@@ -1,0 +1,11 @@
+Input photograph in the left half of before-after.png.
+
+Author: Rachel Michetti
+License: CC0
+The distributing project's data note, scikit-image v0.25.2, skimage/data/_fetchers.py, function coffee, says:
+"No copyright restrictions.  CC0 by the photographer (Rachel Michetti)."
+Note: https://github.com/scikit-image/scikit-image/blob/v0.25.2/skimage/data/_fetchers.py
+File: https://github.com/scikit-image/scikit-image/raw/v0.25.2/skimage/data/coffee.png
+sha256 of that file: cc02f8ca188b167c775a7101b5d767d1e71792cf762c33d6fa15a4599b5a8de7
+
+The right half is the cutout from the pinned u2netp v0.0.0 weights, placed on gray (230, 230, 230). The cutout pixels were not edited after the model.

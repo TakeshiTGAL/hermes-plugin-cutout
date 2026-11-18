@@ -1,0 +1,20 @@
+name: cutout
+version: 0.1.0
+manifest_version: 2
+requires_hermes: ">=0.21.6"
+description: >
+  Cut a photo background and write one new transparent PNG in a folder you name.
+author: TakeshiTGAL
+license: MIT
+platforms:
+  - linux
+  - macos
+provides_tools:
+  - cutout_png
+provides_hooks:
+  - pre_tool_call
+  - pre_llm_call
+  - transform_llm_output
+python_dependencies:
+  - "rembg>=2.0.87,<3"
+  - "onnxruntime>=1.31.1,<2"
